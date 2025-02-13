@@ -1,5 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KraftWill
 
+KraftWill is a decentralized digital will and asset transfer system built on blockchain technology. This project empowers users to securely create, update, and execute their digital wills, ensuring that their digital legacy is preserved and automatically distributed to designated beneficiaries.
+
+## Key Features
+- **Digital Will Creation:** Seamlessly define beneficiaries and specify the asset distribution percentages.
+- **Heartbeat Mechanism:** A time-lock function that requires periodic user interaction to confirm activity. If the user becomes inactive beyond a preset period, the will becomes executable.
+- **Automated Asset Transfer:** Upon execution, funds and digital assets are automatically and transparently distributed to the beneficiaries.
+- **Immutable Records:** Utilizes blockchain for a tamper-proof record, ensuring the security and integrity of your digital will.
+
+## Tech Stack
+- **Smart Contracts:** Solidity (for Ethereum/Polygon networks)
+- **Development Framework:** Hardhat for contract development and testing
+- **Frontend (Optional):** Next.js/React with wallet integrations (e.g., MetaMask)
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ## Getting Started
 
 First, run the development server:
